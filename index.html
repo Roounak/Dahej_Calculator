@@ -1,0 +1,41 @@
+<!-- Author : Rounak Biswas | This is made just for fun. -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="src/output.css">
+    <title>Calculate My Dahej</title>
+</head>
+
+<body class="bg-amber-50">
+    <div class="flex flex-col justify-center items-center mt-10">
+        <h1 class="text-5xl font-cdm-spacial font-medium text-[#c2a503]">CMD</h1>
+        <h1 class="text-2xl mt-2.5 font-cdm-spacial font-medium">Welcome to</h1>
+        <h1 class="text-4xl mb-2.5 font-cdm-spacial font-medium text-[#ceb10f]">CalculateMyDahej.com</h1>
+        <p>best way to get your dahej</p>
+    </div>
+    <div class="flex flex-col justify-center items-center mt-8">
+        <form id="dahejform" action="">
+            <p class="text-center font-medium">Salary</p>
+            <input class="border-2 border-solid border-gray-400 rounded-md w-2xs h-8 text-center mt-2.5 mb-5 focus:outline-none" type="text" id="salary" placeholder="e.g.,25000" required autofocus>
+            <p class="text-center font-medium">Property</p>
+            <input class="border-2 border-solid border-gray-400 rounded-md w-2xs h-8 text-center mt-2.5 mb-5 focus:outline-none" type="text" id="property" placeholder="e.g.,5 bigha" required autofocus>
+            <p class="text-center font-medium">Cow</p>
+            <input class="border-2 border-solid border-gray-400 rounded-md w-2xs h-8 text-center mt-2.5 mb-5 focus:outline-none" type="text" id="cow" placeholder="e.g.,3" required autofocus>
+            <p class="text-center font-medium">Any goverment job in family ?</p>
+            <select id="govtjob" class="border-2 border-solid border-gray-400 rounded-md w-2xs h-8 text-center mt-2.5 mb-5">
+                <option selected disabled>select</option required>
+                <option value="1">Yes</option>
+                <option value="2">No </option>
+              </select>
+            <br>
+            <button class="active:scale-x-110 cursor-pointer bg-gradient-to-r from-[#F0CE38] to-[#E89161] text-white font-medium border-2 border-solid border-gray-400 rounded-md w-2xs h-12 text-center mt-8" type="submit">CALCULATE</button>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
