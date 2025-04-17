@@ -58,7 +58,7 @@ document.getElementById("dahejform").addEventListener("submit", function (e) {
                 <p>best way to get your dahej</p>
             </div>
             <div class="flex flex-col justify-center items-center">
-                <h1 class="text-7xl font-bold text-[#c2a503] mt-20">🎉 ₹${totalDahej} 🎉</h1>
+                <h1 class="text-7xl font-bold text-[#c2a503] mt-20 max-sm:text-4xl">🎉 ₹${totalDahej} 🎉</h1>
                 <h1 class="font-bold text-[#c2a503]">${condition1}</h1>
                 <h1 class="font-bold text-[#c2a503]">${condition2}</h1>
                 <h1 class="font-bold text-[#c2a503]">${condition3}</h1>
